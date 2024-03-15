@@ -30,14 +30,14 @@ export default defineType({
         validation: (Rule) => Rule.required(),
     }),
     defineField({
-        name: 'priceRanges',
-        title: 'Price Ranges',
+        name: 'deliveryTimeRanges',
+        title: 'delivery Time Ranges',
         type: 'array',
         of: [
           {
             type: 'reference',
             to: [
-              {type: 'priceRange'}
+              {type: 'deliveryTimeRange'}
             ]
           }
         ]
