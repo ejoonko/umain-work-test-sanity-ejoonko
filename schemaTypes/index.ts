@@ -1,6 +1,8 @@
 import blockContent from './blockContent'
-import category from './category'
-import post from './post'
-import author from './author'
+import frontPage from './frontPage'
+import restaurantList from './restaurantList'
+import filterSideBar from './filterSideBar'
+import priceRange from './priceRange'
+import mobileWelcomeModal from './mobileWelcomeModal'
 
-export const schemaTypes = [post, author, category, blockContent]
+export const schemaTypes = [frontPage, restaurantList, filterSideBar, priceRange, mobileWelcomeModal, blockContent]
